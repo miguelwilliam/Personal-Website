@@ -1,0 +1,74 @@
+.reviews-section {
+    width: 600px;
+}
+
+.reviews-section .text-container {
+    padding: 10px 0;
+}
+
+.reviews-section .text-container .footer {
+    margin-left: 50px;
+}
+
+.album-desc {
+    height: 200px;
+    width: 300px;
+
+    flex-grow: 1;
+
+    position: relative;
+}
+
+.album-desc .album-artists {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.album-desc .album-date {
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.album-box {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.album-box img {
+    height: 200px;
+    flex-basis: 1;
+}
+
+.album-box p {
+    padding: 10px;
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.album-box p:nth-of-type(1) {
+    margin-top: 20px;
+}
+
+.album-box .subtitle {
+    font-style: italic;
+    padding: 10px;
+}
+
+
+/* PERSONALIZAÇÃO DOS ÁLBUNS ESPECÍFICOS */
+
+[id='1000-gecs'] {
+    background-color: rgb(9, 31, 43);
+    border-bottom: 1px solid rgb(223, 244, 255);
+}
+
+[id='1000-gecs'] * {
+    color: rgb(223, 244, 255);
+}
