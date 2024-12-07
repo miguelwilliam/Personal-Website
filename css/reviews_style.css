@@ -72,3 +72,12 @@
 [id='1000-gecs'] * {
     color: rgb(223, 244, 255);
 }
+
+[id='voltmix-retorno'] {
+    background-color: rgb(4, 24, 3);
+    border-bottom: 1px solid rgb(214, 245, 218);
+}
+
+[id='voltmix-retorno'] * {
+    color: rgb(214, 245, 218);
+}
