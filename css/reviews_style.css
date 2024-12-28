@@ -41,9 +41,13 @@
     padding: 10px;
 }
 
-.album-box img {
+.album-box a img {
     height: 200px;
     flex-basis: 1;
+}
+
+.album-box a img:hover {
+
 }
 
 .album-box p {
@@ -59,6 +63,7 @@
 .album-box .subtitle {
     font-style: italic;
     padding: 10px;
+    text-align: center;
 }
 
 
@@ -73,6 +78,10 @@
     color: rgb(223, 244, 255);
 }
 
+[id='1000-gecs'] a img:hover {
+    border: 1px dashed rgb(223, 244, 255);
+}
+
 [id='voltmix-retorno'] {
     background-color: rgb(4, 24, 3);
     border-bottom: 1px solid rgb(214, 245, 218);
@@ -80,4 +89,8 @@
 
 [id='voltmix-retorno'] * {
     color: rgb(214, 245, 218);
+}
+
+[id='voltmix-retorno'] a img:hover {
+    border: 1px dashed rgb(214, 245, 218);
 }
