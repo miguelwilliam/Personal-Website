@@ -1,0 +1,21 @@
+#voltar-btn {
+    color: #a9a77f;
+    text-align: center;
+}
+
+#foto-esquerda {
+    border: none;
+}
+
+.main-container {
+    height: 300px;
+    border-radius: 20px;
+
+    background-color: rgb(194, 208, 193);
+}
+
+#aboutme-section {
+    max-width: 800px;
+
+    background-color: rgb(241, 255, 240);
+}

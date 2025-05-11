@@ -112,7 +112,7 @@ ul {
 
 
 
-.navbar a {
+.trocar-pagina-btn {
     display: block;
     text-decoration: none;
     color: #3f4900;
@@ -121,7 +121,7 @@ ul {
     justify-content: center;
 }
 
-.navbar a:hover {
+.trocar-pagina-btn:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
