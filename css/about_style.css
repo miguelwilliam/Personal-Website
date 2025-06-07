@@ -1,5 +1,5 @@
 #voltar-btn {
-    color: #a9a77f;
+    color: #552b1d;
     text-align: center;
 }
 
@@ -18,4 +18,6 @@
     max-width: 800px;
 
     background-color: rgb(241, 255, 240);
+    border: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
