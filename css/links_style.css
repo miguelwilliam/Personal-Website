@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+/* 
+CORES
+#1a1b00 PRETO
+#3f4900 VERDE ESCURO FUNDO
+#74783f VERDE MUSGO
+#a9a77f VERDE CLARO quase bege
+*/
+
+.left-container {
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-right: 20px;
+}
+
+@keyframes linkTextAnimation {
+    0% {left: -10px;}
+    50% {left: 10px;}
+    100% {left: -10px;}
+}
+
+.left-container h1 {
+    position: relative;
+    text-align: center;
+
+    animation-name: linkTextAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.left-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+body {
+    background-image: url(https://sadhost.neocities.org/images/tiles/blulights.gif);
+    color: #e2e79e;
+}
+
+a {
+    color: #eff7c6;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    gap: 10px;
+}
+
+.links-container li {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+    padding: 10px;
+}

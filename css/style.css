@@ -58,8 +58,8 @@ CORES
 * {
     margin: 0;
     padding: 0;
-    font-family: "MS Gothic";
-    color: #a9a77f;
+    
+    box-sizing: border-box;
 }
 
 body {
@@ -73,6 +73,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: "MS Gothic";
+    color: #a9a77f;
 }
 
 header {
@@ -110,6 +113,10 @@ ul {
     margin: 0 5px;
 }
 
+a {
+    color: #a9a77f;;
+}
+
 
 
 .trocar-pagina-btn {
@@ -119,6 +126,7 @@ ul {
     font-size: 20px;
     padding: 10px 5px 10px 5px;
     justify-content: center;
+    
 }
 
 .trocar-pagina-btn:hover {
