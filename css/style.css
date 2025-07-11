@@ -117,6 +117,9 @@ a {
     color: #a9a77f;;
 }
 
+a img {
+    height: 16px;
+}
 
 
 .trocar-pagina-btn {
@@ -144,17 +147,12 @@ a {
 }
 
 .mainsection {
-    max-width: 400px;
-}
-
-.sidebar {
-    max-width: 300px;
+    width: 400px;
 }
 
 .main-container {
     display: flex;
     padding: 20px;
-    max-width: 700px;
     height: 500px;
     justify-content: space-between;
     background-color: #74783f;
@@ -191,9 +189,6 @@ a {
     font-size: 1.5em;
 }
 
-.sidebar img {
-    display: block;
-    margin: 20px auto 20px auto;
-    border-radius: 50%;
-    border: 1px solid #1a1b00;
+#home-container {
+    width: 500px;
 }
