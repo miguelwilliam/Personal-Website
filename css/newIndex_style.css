@@ -6,17 +6,24 @@
 
 body {
     font-family: "MS Gothic";
+    color: white;
+    background-color: black;
 }
 
-div.black {
-    background-color: rgb(8, 14, 27);
-    color: white;
-    padding: 10px;
+#manasamaimg {
+    z-index: -1;
+    filter: invert(20%);
+    position: absolute;
+    height: 100vh;
+    right: 0;
 }
 
 .mini-container {
     width: fit-content;
     max-width: 600px;
+    padding: 10px;
+
+    text-align: justify;
 
     display: flex;
     flex-direction: column;
@@ -24,11 +31,41 @@ div.black {
 
     margin: 30px 10px;
     border-radius: 0 3px 3px 0;
+    animation: 1s all ease;
 
     h1 {
         font-size: 16px;
     }
-    a {
-        color: rgb(255, 87, 185);
+        
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items : center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;  
+    li {
+        list-style-type: none;
+    }
+}
+
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;   
+}
+
+#mapa-do-site-container {
+    margin: auto;
+    .ascii-art {
+        font-size: 13px;
     }
 }
