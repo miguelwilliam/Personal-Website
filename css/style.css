@@ -35,6 +35,7 @@ body {
     flex: 1;
     display: flex;
     min-height: 0;
+    min-width: 300px;
 }
 
 .col-3 {
