@@ -151,3 +151,26 @@ article.blog {
     text-align: justify;
     padding: 10px;
 }
+
+.center-block {
+    width: 500px;
+    margin: auto;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    text-align: center;
+}
+
+.center-block ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+    width: fit-content;
+
+}
