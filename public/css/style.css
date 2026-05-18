@@ -92,6 +92,12 @@ body {
     width: 100%;
 }
 
+.hakken {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
 a {
     color: white;
 }
