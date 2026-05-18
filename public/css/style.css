@@ -101,6 +101,11 @@ body {
     justify-content: center;
 }
 
+#hakken a {
+    width: fit-content;
+    height: fit-content;
+}
+
 a {
     color: white;
 }
